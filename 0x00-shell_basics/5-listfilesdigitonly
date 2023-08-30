@@ -1,2 +1,2 @@
 #!/bin/bash 
-ls --author --numeric-uid-gid --all 
+ls --numeric-uid-gid --all
