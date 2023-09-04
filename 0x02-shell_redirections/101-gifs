@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Rap | grep -v *.git/ | cut -d '/' -f 1 | sort -f
+find -type f -name "*.git" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev |sort -f
