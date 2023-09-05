@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((POWER + DIVIDE)) #already global variables no need to put '$'
+echo $((POWER / DIVIDE)) #already global variables no need to put '$'
