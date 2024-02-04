@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # listen on localhost port 98
 
-nc -nlvp 98 
+nc -l 98 
 
